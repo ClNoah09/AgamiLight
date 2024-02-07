@@ -75,6 +75,21 @@ button:focus-visible {
   text-align: center;
 }
 
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #0077ff; /* Couleur de fond du footer */
+  padding: 20px; /* Espacement interne du footer */
+  color: #343a40; /* Couleur du texte du footer */
+}
+
+.smaller-image {
+  width: 8%; /* Largeur maximale de l'image */
+  height: auto; /* Hauteur automatique pour maintenir les proportions de l'image */
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

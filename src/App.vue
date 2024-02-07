@@ -3,31 +3,41 @@
 <template>
   <div class="d-flex flex-column h-100">
     <header>
+      fixed-top bg-dark
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Agami-light</a>
+          <a class="navbar-brand" href="#">Agami-Light</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Secteur d'activités</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Témoiniage</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Evenements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -36,30 +46,28 @@
     </header>
 
     <!-- Begin page content -->
-    <main class="flex-shrink-0 py-5">
-      <div class="container">
-        <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-        <p class="lead">
-          Pin a footer to the bottom of the viewport in desktop browsers with
-          this custom HTML and CSS. A fixed navbar has been added with
-          <code class="small">padding-top: 60px;</code> on the
-          <code class="small">main &gt; .container</code>.
-        </p>
-        <p>
-          Back to
-          <a href="/docs/5.3/examples/sticky-footer/"
-            >the default sticky footer</a
-          >
-          minus the navbar.
-        </p>
-      </div>
-    </main>
+    <main class="flex-shrink-0 py-5"></main>
 
-    <footer class="footer mt-auto py-3 bg-body-tertiary">
-      <div class="container">
-        <span class="text-body-secondary"
-          >Place sticky footer content here.</span
-        >
+    <footer class="footer mt-auto py-3 bg-blue">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-4 text-start">
+            <p class="mb-0">2024 Agami-Light.be</p>
+          </div>
+          <div class="col-4 text-center">
+            <img
+              src="./assets/LOGO_NEGATIF.png"
+              alt="Logo"
+              class="img-fluid smaller-image"
+            />
+          </div>
+
+          <div class="col-4 text-end">
+            <a href="mentions-legales.html" class="text-dark"
+              >Mentions légales</a
+            >
+          </div>
+        </div>
       </div>
     </footer>
   </div>
