@@ -44,6 +44,13 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+.logo {
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  left: 50%; /* Déplace l'élément au milieu horizontalement */
+  transform: translateX(-50%); /* Translate -50% pour centrer l'élément */
+}
 
 button {
   border-radius: 8px;
@@ -69,17 +76,24 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
   text-align: center;
 }
 
+.nav {
+  z-index: 1;
+}
+.navbar-nav .nav-item .nav-link {
+  color: black;
+  transition: color 0.3s; /* Ajoute une transition fluide */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #333; /* Change la couleur au survol */
+}
+
 .footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   background-color: #0077ff; /* Couleur de fond du footer */
   padding: 20px; /* Espacement interne du footer */
   color: #343a40; /* Couleur du texte du footer */
