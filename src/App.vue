@@ -84,9 +84,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="logo">
-        <img src="./assets/LOGO_NEGATIF.PNG" alt="LOGO" />
+      <div class="logo d-flex justify-content-center">
+        <img src="./assets/LOGO_NEGATIF.PNG" alt="LOGO" class="img-fluid" />
       </div>
+
       <button type="button" class="btn btn-primary mt-2 mb-0">
         Me Contacter
       </button>

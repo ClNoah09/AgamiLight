@@ -52,6 +52,10 @@ h1 {
   transform: translateX(-50%); /* Translate -50% pour centrer l'élément */
 }
 
+.logo img {
+  width: 30vw; /* Le logo occupera 50% de la largeur de l'écran */
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -114,5 +118,10 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media (max-width: 480px) {
+  img {
+    width: 100%;
   }
 }
