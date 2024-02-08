@@ -91,6 +91,81 @@
       <button type="button" class="btn btn-primary mt-2 mb-0">
         Me Contacter
       </button>
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col custom-div d-flex align-items-center">
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-interval="false"
+              style="width: 60%"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+1"
+                    class="d-block w-100 h-100"
+                    alt="Slide 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+2"
+                    class="d-block w-100 h-100"
+                    alt="Slide 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+3"
+                    class="d-block w-100 h-100"
+                    alt="Slide 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col d-flex align-items-center"
+            style="background-color: #0077ff"
+          >
+            <p class="m-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer mt-auto py-3 bg-blue">

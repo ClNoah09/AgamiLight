@@ -74,7 +74,10 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.custom-div {
+  height: 80vh; /* 20% de la hauteur de la fenêtre */
+  background-color: #0077ff;
+}
 .card {
   padding: 2em;
 }
