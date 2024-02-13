@@ -93,13 +93,12 @@
       </button>
       <div class="container-fluid p-0">
         <div class="row">
-          <div class="col custom-div d-flex align-items-center">
+          <div class="col-md-6 custom-div d-flex align-items-center">
             <div
               id="carouselExampleRide"
               class="carousel slide"
               data-bs-ride="carousel"
               data-interval="false"
-              style="width: 60%"
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -151,18 +150,21 @@
             </div>
           </div>
           <div
-            class="col d-flex align-items-center"
+            class="col-md-6 d-flex align-items-center"
             style="background-color: #0077ff"
           >
             <p class="m-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              En tant qu'électricien, je m'occupe de l'installation et de la
+              maintenance des systèmes électriques. Mon travail va du
+              résidentiel au tertiaire, industriel et événementiel. Je veille à
+              ce que les installations soient sûres et fonctionnent correctement
+              dans divers environnements.
             </p>
+          </div>
+          <div class="col-md-12 text-center mt-3">
+            <div class="rectangle">
+              <p>Secteur d'activités</p>
+            </div>
           </div>
         </div>
       </div>
