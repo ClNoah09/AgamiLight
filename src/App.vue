@@ -91,7 +91,15 @@
       <button type="button" class="btn btn-primary mt-2 mb-0">
         Me Contacter
       </button>
+      <!---SECTEUR D4ACTIVITE-->
       <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-12 text-center mt-3">
+            <div class="rectangle">
+              <p>Secteur d'activités</p>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-6 custom-div d-flex align-items-center">
             <div
@@ -161,11 +169,24 @@
               dans divers environnements.
             </p>
           </div>
-          <div class="col-md-12 text-center mt-3">
-            <div class="rectangle">
-              <p>Secteur d'activités</p>
-            </div>
-          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="icon">
+          <img src="./assets/house-solid.svg" alt="Maison" />
+          <div class="description">Résidentiel</div>
+        </div>
+        <div class="icon">
+          <img src="./assets/building-regular.svg" alt="Bâtiments" />
+          <div class="description">Tertiaire et Industrielle</div>
+        </div>
+        <div class="icon">
+          <img
+            src="./assets/stadium_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="Stade"
+          />
+          <div class="description">Evénementiel</div>
         </div>
       </div>
     </main>
