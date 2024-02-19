@@ -33,9 +33,6 @@
                 <a class="nav-link" href="#">Témoiniage</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Photos</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">Evenements</a>
               </li>
               <li class="nav-item">
