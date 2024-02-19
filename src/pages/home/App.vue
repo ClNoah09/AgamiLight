@@ -52,7 +52,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./assets/electricien-masculin-travaille-dans-standard-cable-raccordement-electrique (1).jpg"
+              src="../../assets/electricien-masculin-travaille-dans-standard-cable-raccordement-electrique (1).jpg"
               class="d-block w-100"
               alt="..."
             />
@@ -84,7 +84,7 @@
         </button>
       </div>
       <div class="logo d-flex justify-content-center">
-        <img src="./assets/LOGO_NEGATIF.PNG" alt="LOGO" class="img-fluid" />
+        <img src="../../assets/LOGO_NEGATIF.PNG" alt="LOGO" class="img-fluid" />
       </div>
 
       <div class="button-container">
@@ -175,16 +175,16 @@
 
       <div class="container">
         <div class="icon">
-          <img src="./assets/house-solid.svg" alt="Maison" />
+          <img src="../../assets/house-solid.svg" alt="Maison" />
           <div class="description">Résidentiel</div>
         </div>
         <div class="icon">
-          <img src="./assets/building-regular.svg" alt="Bâtiments" />
+          <img src="../../assets/building-regular.svg" alt="Bâtiments" />
           <div class="description">Tertiaire et Industriel</div>
         </div>
         <div class="icon">
           <img
-            src="./assets/stadium_FILL0_wght400_GRAD0_opsz24.svg"
+            src="../../assets/stadium_FILL0_wght400_GRAD0_opsz24.svg"
             alt="Stade"
           />
           <div class="description">Evénementiel</div>
@@ -441,16 +441,14 @@
           </div>
           <div class="col-4 text-center">
             <img
-              src="./assets/LOGO_NEGATIF.png"
+              src="../../assets/LOGO_NEGATIF.png"
               alt="Logo"
               class="img-fluid smaller-image"
             />
           </div>
 
           <div class="col-4 text-end">
-            <a href="mentions-legales.html" class="text-dark"
-              >Mentions légales</a
-            >
+            <a href="mentions.html" class="text-dark">Mentions légales</a>
           </div>
         </div>
       </div>
