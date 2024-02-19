@@ -27,13 +27,15 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Secteur d'activités</a>
+                <a class="nav-link" href="#secteur-activites"
+                  >Secteur d'activités</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Témoiniage</a>
+                <a class="nav-link" href="#temoignages">Témoiniage</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Evenements</a>
+                <a class="nav-link" href="#evenements">Evenements</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
@@ -46,7 +48,7 @@
 
     <!-- Begin page content -->
     <main class="flex-shrink-0 py-5 container-fluid">
-      <div id="carouselExample" class="carousel slide nav">
+      <div id="carouselExample " class="carousel slide nav">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -85,11 +87,13 @@
         <img src="./assets/LOGO_NEGATIF.PNG" alt="LOGO" class="img-fluid" />
       </div>
 
-      <button type="button" class="btn btn-primary mt-2 mb-0">
-        Me Contacter
-      </button>
+      <div class="button-container">
+        <button type="button" class="btn btn-primary mt-2 mb-0">
+          Me Contacter
+        </button>
+      </div>
       <!---SECTEUR D4ACTIVITE-->
-      <div class="container-fluid p-0">
+      <div id="secteur-activites" class="container-fluid p-0">
         <div class="row">
           <div class="col-md-12 text-center mt-3">
             <div class="rectangle">
@@ -176,7 +180,7 @@
         </div>
         <div class="icon">
           <img src="./assets/building-regular.svg" alt="Bâtiments" />
-          <div class="description">Tertiaire et Industrielle</div>
+          <div class="description">Tertiaire et Industriel</div>
         </div>
         <div class="icon">
           <img
@@ -185,6 +189,247 @@
           />
           <div class="description">Evénementiel</div>
         </div>
+      </div>
+      <!---RESIDENTIEL-->
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-6 custom-div d-flex align-items-center">
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+1"
+                    class="d-block w-100 h-100"
+                    alt="Slide 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+2"
+                    class="d-block w-100 h-100"
+                    alt="Slide 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+3"
+                    class="d-block w-100 h-100"
+                    alt="Slide 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex flex-column align-items-center"
+            style="background-color: #0077ff"
+          >
+            <div class="content">
+              <h2>Résidentiel</h2>
+              <p class="m-4 bigger-font-size">
+                En tant qu'électricien résidentiel, je propose des services de
+                remise en conformité, d'installation neuve, de domotique (Niko
+                Home Contrôle, KNX), de réseaux informatiques, de bornes de
+                recharge pour véhicules électriques et de solutions
+                photovoltaïques.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---Tertiaire et Industriel-->
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-12 text-center mt-3"></div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 d-flex flex-column align-items-center"
+            style="background-color: #0077ff"
+          >
+            <div class="content">
+              <h2>Tertiaire et Industriel</h2>
+              <p class="m-4 bigger-font-size">
+                En tant qu'électricien spécialisé dans les secteurs tertiaire et
+                industriel, je propose des services de maintenance générale,
+                d'électricité industrielle, de système KNX, ainsi que des
+                compétences en hydraulique et en pneumatique.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 custom-div d-flex align-items-center">
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+1"
+                    class="d-block w-100 h-100"
+                    alt="Slide 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+2"
+                    class="d-block w-100 h-100"
+                    alt="Slide 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+3"
+                    class="d-block w-100 h-100"
+                    alt="Slide 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Evénementiel-->
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-12 text-center mt-3"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 custom-div d-flex align-items-center">
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+1"
+                    class="d-block w-100 h-100"
+                    alt="Slide 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+2"
+                    class="d-block w-100 h-100"
+                    alt="Slide 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://via.placeholder.com/800x600.png?text=Slide+3"
+                    class="d-block w-100 h-100"
+                    alt="Slide 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex flex-column align-items-center"
+            style="background-color: #0077ff"
+          >
+            <div class="content">
+              <h2>Evénementiel</h2>
+              <p class="m-4 bigger-font-size">
+                En tant qu'électricien spécialisé dans le secteur événementiel,
+                je propose des services de gestion et de distribution
+                électrique, ainsi que la gestion d'événements de petite
+                envergure pour les particuliers et les professionnels.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Avis Google-->
+      <div id="temoignages" class="fullscreen-div first-div">
+        <h3>AVIS GOOGLE</h3>
+      </div>
+      <!--Callendrier-->
+      <div id="evenements" class="fullscreen-div second-div">
+        <h3>CALENDRIER</h3>
       </div>
     </main>
 
@@ -201,6 +446,7 @@
               class="img-fluid smaller-image"
             />
           </div>
+
           <div class="col-4 text-end">
             <a href="mentions-legales.html" class="text-dark"
               >Mentions légales</a

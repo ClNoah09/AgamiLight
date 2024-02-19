@@ -1,61 +1,36 @@
+/* Variables globales */
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Couleurs */
+  --primary-color: #0077ff;
+  --secondary-color: #646cff;
+  --text-color: #ffffff;
+  --background-color: #242424;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  /* Polices */
+  --font-primary: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* Styles globaux */
 body {
-  margin: 0;
+  /* Vos styles existants */
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-.logo {
-  z-index: 2;
-  position: absolute;
-  top: 10%;
-  left: 50%; /* Déplace l'élément au milieu horizontalement */
-  transform: translateX(-50%); /* Translate -50% pour centrer l'élément */
+/* Liens */
+a {
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-decoration: inherit;
 }
 
-.logo img {
-  width: 30vw; /* Le logo occupera 50% de la largeur de l'écran */
+a:hover {
+  color: #535bf2;
 }
 
+/* Boutons */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -67,10 +42,53 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.button-container {
+  text-align: center;
+}
 
+button:hover {
+  border-color: var(--secondary-color);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* En-têtes */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  color: white !important; /* Couleur du texte */
+  font-size: 50px !important; /* Taille de la police */
+  margin-bottom: 10px !important; /* Marge inférieure */
+}
+
+/* Pour agrandir la taille de la police du paragraphe spécifique */
+.bigger-font-size {
+  font-size: 1.2em; /* Changer la taille de la police selon vos besoins */
+}
+
+/* Logos */
+.logo {
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 30vw; /* Le logo occupera 50% de la largeur de l'écran */
+}
+
+/* Rectangles */
 .rectangle {
   background-color: #808080;
-  width: 30vw; /* Utilisation de vw pour la largeur relative à la largeur de la fenêtre */
+  width: 30vw;
   height: 9vh;
   text-align: center;
   border-radius: 5px;
@@ -80,62 +98,67 @@ button {
 }
 
 .rectangle p {
-  font-size: 2.5vw; /* Utilisation de vw pour la taille de police relative à la largeur de la fenêtre */
+  font-size: 2.5vw;
   margin: 0;
-  padding-bottom: 0.5vh; /* Utilisation de vh pour l'espacement relatif à la hauteur de la fenêtre */
-  border-bottom: 0.1vh solid black; /* Utilisation de vh pour l'épaisseur du soulignement relatif à la hauteur de la fenêtre */
-  white-space: nowrap; /* Pour afficher le texte en une seule ligne */
+  padding-bottom: 0.5vh;
+  border-bottom: 0.1vh solid black;
+  white-space: nowrap;
+}
+.content {
+  max-width: 80%; /* Reduire la taille de la div de texte */
+  margin: auto; /* Centrer la div horizontalement */
+  text-align: center; /* Centrer le texte à l'intérieur de la div */
 }
 
-.m-4 {
-  font-size: 25px;
-  text-align: left;
+/* Conteneurs */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-.custom-div {
-  height: 80vh; /* 20% de la hauteur de la fenêtre */
-  background-color: #0077ff;
-}
-.card {
-  padding: 2em;
-}
-
-#app {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
+/* Icônes */
+.icon {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
 }
 
-.nav {
-  z-index: 1;
-}
-.navbar-nav .nav-item .nav-link {
-  color: black;
-  transition: color 0.3s; /* Ajoute une transition fluide */
+.icon img {
+  width: 340px;
+  height: 300px;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-  color: #333; /* Change la couleur au survol */
+.description {
+  font-size: 40px;
 }
 
+/* Ajouter ces styles pour déplacer le h2 au-dessus du paragraphe */
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.col-md-6 h2 {
+  order: -1;
+}
+
+/* Footer */
 .footer {
-  background-color: #0077ff; /* Couleur de fond du footer */
-  padding: 20px; /* Espacement interne du footer */
-  color: #343a40; /* Couleur du texte du footer */
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: #343a40;
 }
 
 .smaller-image {
-  width: 8%; /* Largeur maximale de l'image */
-  height: auto; /* Hauteur automatique pour maintenir les proportions de l'image */
+  width: 8%;
+  height: auto;
 }
 
+/* Médias requête */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -148,34 +171,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
 @media (max-width: 480px) {
   img {
     width: 100%;
   }
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  /*background-image: url("./assets/gears-solid.svg");  Ajout de l'image de fond 
-  background-repeat: no-repeat;
-  background-size: 600px 600px;  Taille de l'image de fond */
-}
-
-.icon {
-  text-align: center;
-  margin-top: 20px; /* Ajout de la marge en haut */
-}
-
-.icon img {
-  width: 340px;
-  height: 300px;
-}
-
-.description {
-  font-size: 40px;
 }
 
 @media (max-width: 768px) {
@@ -190,4 +190,29 @@ button:focus-visible {
     width: 200px;
     height: 180px;
   }
+}
+
+/* Déplacement du h2 au-dessus du p */
+.m-4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.fullscreen-div {
+  height: 100vh; /* Prendre la hauteur de l'écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+}
+
+.first-div {
+  background-color: #ff00ff; /* Couleur flashy */
+  margin-bottom: 5%;
+}
+
+.second-div {
+  background-color: #00ffff; /* Couleur flashy */
 }
