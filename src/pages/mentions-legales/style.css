@@ -64,6 +64,7 @@ h2 {
   background-color: var(--primary-color);
   padding: 20px;
   color: #343a40;
+  width: 100%; /* Ajout de cette règle */
 }
 
 .smaller-image {
