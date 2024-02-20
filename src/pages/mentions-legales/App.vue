@@ -9,7 +9,7 @@
         style="background: linear-gradient(90deg, #808080 10%, #0077ff 80%)"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Agami-Light</a>
+          <a class="navbar-brand" href="../../../index.html">Agami-Light</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -59,72 +59,308 @@
           </div>
         </div>
       </div>
-      <div class="Politique de confidentialité">
-        <h3>Politique de confidentialité</h3>
+      <div class="Conditions d'utilisation">
+        <h3>Conditions d'utilisation</h3>
+        <ul>
+          <li>Article 1 – Objectif et contenu du site web</li>
+          <li>Article 2 – Contact</li>
+          <li>Article 3 – Nature des informations offertes</li>
+          <li>Article 4 – Responsabilité</li>
+          <li>Article 5 – Hyperliens externes</li>
+          <li>Article 6 – Propriété intellectuelle</li>
+          <li>Article 7 – Modifications</li>
+          <li>Article 8 – Protection de vos données à caractère personnel</li>
+        </ul>
         <p>
-          Les données stockées dans ma boîte mail sont protégées par un mot de
-          passe et les informations envoyées sont protégées par un encryptage
-          SSL. Vos informations seront utilisées uniquement pour répondre à
-          votre demande. « NathalieVanassche.be » ne stocke aucune information
-          vous concernant dans une base de données.
+          L’accès au présent site web et l’utilisation de ce dernier sont soumis
+          aux conditions d’utilisation reprises ci-dessous (« Conditions
+          d’utilisation »). Nous vous invitons à les lire attentivement avant
+          d’utiliser ce site web de quelque manière que ce soit.
+        </p>
+        <p>
+          En visitant ce site web ultérieurement ou en l’utilisant, vous marquez
+          votre accord formel avec les présentes conditions. En cas
+          d’incommodité lors de la lecture de ces conditions, ou si vous
+          n’acceptez pas le contenu de ces dernières, nous vous demandons de ne
+          pas continuer à utiliser ce site web.
         </p>
       </div>
-      <div class="Droit d'auteur">
-        <h3>Droit d'auteur</h3>
+      <div class="1. Objectif et contenu du site web">
+        <h3>1. Objectif et contenu du site web</h3>
         <p>
-          Le site « NathalieVanassche.be » constitue une création protégée par
-          le droit d'auteur. Les textes, exercices, correctifs, photos, et
-          autres éléments de ce site sont protégés par le droit d'auteur. Toute
-          copie, adaptation, traduction, arrangement, communication au public,
-          location et autre exploitation, modification de tout ou partie de ce
-          site sous quelle que forme et par quel que moyen que ce soit,
-          électronique, mécanique ou autre, réalisée dans un but lucratif, est
-          strictement interdit sans mon autorisation préalable. Toute infraction
-          à ces droits peut entraîner des poursuites civiles ou pénales.
-          Cependant, ce site est destiné à mes étudiants et le contenu mis en
-          ligne est destiné à être exploité à volonté dans un cadre privé.
-          Ainsi, les copies, impressions, enregistrements sont autorisées sous
-          les seules réserves de ne pas dissimuler les signes distinctifs de
-          personnalisation et de ne pas en faire un usage commercial. En
-          revanche, je n'assure aucune aide, ni support sur des questions
-          d'utilisation ou de compréhension de tous supports disponibles sur ce
-          site en dehors d'un contexte de cours.
+          Ce site web constitue un guide dans la recherche d’informations sur
+          mes produits et services. J’entends vous offrir via ce site web un
+          accès simple, rapide et amélioré aux informations le/la concernant.
         </p>
       </div>
-      <div class="Marques et noms commerciaux">
-        <h3>Marques et noms commerciaux</h3>
+      <div class="2. Contact">
+        <h3>2. Contact</h3>
         <p>
-          Les dénominations, logos et autres signes utilisés sur ce site sont
-          des marques et/ou noms commerciaux légalement protégés. Tout usage de
-          ceux-ci ou de signes ressemblants est strictement interdit sans un
-          accord préalable et écrit.
+          Si vous avez besoin de plus d’informations, vous pouvez me contacter à
+          l’adresse mail suivante : Contact@agami-light.be.
         </p>
       </div>
-      <div class="Responsabilité quant au contenu">
-        <h3>Responsabilité quant au contenu</h3>
+      <div class="3. Nature des informations offertes">
+        <h3>3. Nature des informations offertes</h3>
         <p>
-          J'apporte le plus grand soin à la création et à la mise à jour de ce
-          site mais je ne peux toutefois pas garantir l'exactitude de
-          l'information qui s'y trouve. Les informations contenues dans ce site
-          pourront faire l'objet de modifications sans préavis. Les informations
-          données sur ce site ne sauraient engager ma responsabilité, je ne
-          pourrais être tenue pour responsable de toute omission, erreur ou
-          lacune qui aurait pu se glisser dans ses pages ainsi que des
-          conséquences, quelle qu'elles soient, pouvant résulter de
-          l'utilisation des informations et indications fournies.
+          Les informations disponibles sur ce site web sont de nature générale.
+          Les informations ne sont pas adaptées à des circonstances personnelles
+          ou spécifiques, et ne peuvent donc pas être considérées comme des
+          conseils personnels, professionnels ou juridiques. Ce site web ainsi
+          que tout le matériel offert sont disponibles en « l’état actuel des
+          choses » et sans que des garanties ne soient fournies. L’utilisation
+          de ce site web et des informations qui y figurent se fait dès lors
+          exclusivement à vos propres risques.
         </p>
       </div>
-      <div class="Coordonnées">
-        <h3>Coordonnées</h3>
+      <div class="4. Responsabilité">
+        <h3>4. Responsabilité</h3>
         <p>
-          Vous pouvez me contacter par Email à
-          nathalie.vanassche@ifosup.wavre.be à l'IFOSUP : www.ifosupwavre.be Rue
-          de la Limite, 6 1300 Wavre 010/22.20.26
+          Je consens de gros efforts pour que l’information mise à disposition
+          soit complète, correcte, exhaustive et à jour. Malgré ces efforts, des
+          erreurs peuvent figurer dans l’information mise à votre disposition.
+          Si l’information diffusée comportait des erreurs ou si certaines
+          informations étaient indisponibles, je mettrai tout en œuvre pour
+          rectifier la situation au plus vite. Si vous veniez à constater des
+          erreurs dans l’information mise à disposition, vous pouvez toujours me
+          contacter. Je m‘efforce à sécuriser le site web avec tous les moyens
+          raisonnables et de limiter le plus possible les dérangements éventuels
+          dus à des erreurs techniques. Je ne peux cependant exclure la
+          possibilité selon laquelle des manœuvres techniques malveillantes ou
+          des interventions non autorisées se produisent. C’est pourquoi je ne
+          peux garantir que l’accès au site web ne sera pas interrompu ou ne
+          subira pas de dérangement d’une autre façon en raison de tels
+          problèmes. Néanmoins, je ne peux en aucun cas être tenue pour
+          responsable de tout dommage direct ou indirect découlant de
+          l’utilisation de ce site web ou des informations mises à disposition.
+          Vous êtes personnellement responsable de tout dommage éventuel subi
+          par votre système informatique ou de toute perte de données survenant
+          à la suite du téléchargement d’informations.
         </p>
       </div>
-      <div class="Hébergeur">
-        <h3>Hébergeur</h3>
-        <p>OVH 2 rue Kellermann 59100 Roubaix - France. www.ovh.com</p>
+      <div class="5. Hyperliens externes">
+        <h3>5. Hyperliens externes</h3>
+        <p>
+          Ce site web comporte des hyperliens vers d’autres sites web sur
+          lesquels je n’exerce aucun contrôle technique ou relatif au contenu.
+          Un hyperlien vers de tels sites web externes entraîne toujours
+          l’ouverture d’une nouvelle fenêtre dans votre navigateur. Je ne peux
+          offrir aucune garantie quant au caractère exhaustif ou exact du
+          contenu ou quant à la disponibilité de ces sites web et n’accepte donc
+          aucune responsabilité en cas de dommages directs ou indirects
+          découlant de l’utilisation de ces sites web.
+        </p>
+      </div>
+      <div class="6. Propriété intellectuelle">
+        <h3>6. Propriété intellectuelle</h3>
+        <p>
+          Les textes, images, fichiers vidéo et fichiers audio affichés sur ce
+          site web ne peuvent être reproduits ou communiqués au public qu’après
+          autorisation écrite expresse et préalable de moi.
+        </p>
+      </div>
+      <div class="7. Modifications">
+        <h3>7. Modifications</h3>
+        <p>
+          Les textes, images, fichiers vidéo et fichiers audio affichés sur ce
+          site web ne peuvent être reproduits ou communiqués au public qu’après
+          autorisation écrite expresse et préalable de moi.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="Conditions générales de ventes">
+        <h3>Conditions générales de ventes</h3>
+        <ul>
+          <li>Article 1 – Définitions</li>
+          <li>Article 2 – Identité de l’entrepreneur /li></li>
+          <li>Article 3 – Applicabilité</li>
+          <li>Article 4 – l’offre</li>
+          <li>Article 5 – Le contrat</li>
+          <li>
+            Article 6 – Droit de rétractation lors de la livraison de produits
+          </li>
+          <li>Article 7 – Frais en cas de rétractation</li>
+          <li>Article 8 – Exclusion du droit de rétractation</li>
+          <li>Article 9 – Le prix</li>
+          <li>Article 10 – Conformité et garantie</li>
+          <li>Article 11 – Livraison et exécution</li>
+          <li>Article 12 – Durée des transactions</li>
+          <li>Article 13 – Paiement</li>
+          <li>Article 14 – Règlement des plaintes</li>
+          <li>Article 15 – Dispositions complémentaires ou dérogatoires</li>
+        </ul>
+      </div>
+      <div class="Article 1 - Définitions Haut de page">
+        <h3>Article 1 - Définitions Haut de page</h3>
+        <h6>Dans les présentes conditions, on entend par :</h6>
+        <p>
+          Entrepreneur : la personne physique ou morale qui propose des produits
+          et/ou services à distance à des consommateurs.
+        </p>
+        <p>
+          Consommateur : la personne physique qui n’agit pas dans l’exercice
+          d’une profession ou d’une entreprise et qui souscrit un contrat à
+          distance avec l’entrepreneur.
+        </p>
+        <p>
+          Contrat à distance : un contrat où dans le cadre d’un système organisé
+          par l’entrepreneur pour la vente à distance de produits et/ou
+          services, il est fait exclusivement usage d’une ou plusieurs
+          techniques de communication à distance jusqu’à la conclusion du
+          contrat.
+        </p>
+        <p>
+          Technique de communication à distance : moyen qui peut être utilisé
+          pour la conclusion d’un contrat sans que le consommateur et
+          l’entrepreneur se trouvent simultanément dans le même local.
+        </p>
+        <p>
+          Délai de réflexion : le délai durant lequel le consommateur peut
+          utiliser son droit de rétractation.
+        </p>
+        <p>
+          Droit de rétractation : la possibilité pour le consommateur de
+          renoncer, endéans le délai de réflexion, au contrat à distance.
+        </p>
+        <h6>Jour : jour civil.</h6>
+        <p>
+          Durée de la transaction : un contrat à distance ayant trait à une
+          série de produits et/ou services, pour lesquels l’obligation de
+          livraison et/ou d’achat est échelonnée dans le temps.
+        </p>
+        <p>
+          Support de données durable : tout moyen permettant au consommateur ou
+          à l’entrepreneur de stocker des informations qui lui sont adressées
+          personnellement, d’une manière assurant la consultation future et la
+          reproduction intacte des informations sauvegardées.
+        </p>
+      </div>
+      <div class="Article 2 – Identité de l'entrepreneur Haut de page">
+        <h3>Article 2 – Identité de l'entrepreneur Haut de page</h3>
+      </div>
+      <div class="Article 3 – Applicabilité Haut de page">
+        <h3>Article 3 – Applicabilité Haut de page</h3>
+        <p>
+          Les présentes conditions générales s’appliquent à chaque offre de
+          l’entrepreneur et à chaque contrat à distance établi entre
+          l’entrepreneur et le consommateur.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
+      </div>
+      <div class="8. Protection de vos données à caractère personnel">
+        <h3>8. Protection de vos données à caractère personnel</h3>
+        <p>
+          Je respecte votre vie privée. Les données que vous communiquez sur le
+          site web sont traitées confidentiellement. Pour plus de
+          renseignements, vous pouvez consulter notre déclaration de
+          confidentialité.
+        </p>
       </div>
     </main>
 
