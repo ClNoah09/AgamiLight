@@ -19,9 +19,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: black !important;
-  background-image: url("../../../assets/LOGO_NEGATIF.png");
-  background-repeat: no-repeat; /* Évite que l'image de fond se répète */
-  background-position: center; /* Centre l'image de fond horizontalement et verticalement */
 }
 
 /* Liens */
@@ -51,9 +48,14 @@ a:hover {
 }
 
 #buttonContainer {
+  min-width: 320px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../../assets/LOGO_NEGATIF.png");
+  background-repeat: no-repeat; /* Évite que l'image de fond se répète */
+  background-position: center; /* Centre l'image de fond horizontalement et verticalement */
 }
 
 #buttonContainer button {
@@ -68,7 +70,7 @@ h1 {
 }
 
 h2 {
-  color: white !important; /* Couleur du texte */
+  color: rgb(0, 0, 0) !important; /* Couleur du texte */
   font-size: 50px !important; /* Taille de la police */
   margin-bottom: 10px !important; /* Marge inférieure */
 }
@@ -224,4 +226,89 @@ h2 {
 
 .second-div {
   background-color: #00ffff; /* Couleur flashy */
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left-side,
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+.button {
+  display: block;
+  margin-bottom: 10px;
+}
+.approve-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 5px;
+  display: block;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 100px; /* Largeur de l'image */
+  height: auto; /* Hauteur proportionnelle à la largeur */
+  margin-right: 10px;
+}
+
+.residentiel,
+.industirel,
+.evenementiel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Mettre les éléments en colonne */
+}
+
+.image-container h3 {
+  text-align: center; /* Centrer le titre */
+  margin-bottom: 10px; /* Ajouter de l'espace en dessous du titre */
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column; /* Mettre les éléments en colonne */
+  align-items: center;
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 5px; /* Espacement entre l'image et le bouton */
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: block;
 }

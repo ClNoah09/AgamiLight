@@ -8,17 +8,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Agami-Light</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
           <div
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
@@ -36,6 +26,180 @@
         <button type="button" class="btn btn-primary">Images</button>
         <button type="button" class="btn btn-primary">Clients</button>
         <button type="button" class="btn btn-primary">Agenda</button>
+      </div>
+      <div class="imgcontainer">
+        <div class="left-side">
+          <img src="https://via.placeholder.com/150" alt="Placeholder" />
+          <button class="button">+</button>
+          <h3>Insérez image</h3>
+          <select>
+            <option value="residential">Résidentiel</option>
+            <option value="industrial">Industriel, Tertiaire</option>
+            <option value="event">Événementiel</option>
+          </select>
+          <button class="approve-button">V</button>
+        </div>
+        <div class="right-side">
+          <h3>Résidentiel</h3>
+          <div class="residentiel">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+          </div>
+          <h3>Industriel et Tertiaire</h3>
+          <div class="industirel">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+          </div>
+          <h3>Événementiel</h3>
+          <div class="evenementiel">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img
+                  src="https://via.placeholder.com/100"
+                  alt="Placeholder"
+                  class="image"
+                />
+                <button class="delete-button">X</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </div>
