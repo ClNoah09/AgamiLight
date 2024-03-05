@@ -58,11 +58,20 @@ a:hover {
   background-position: center; /* Centre l'image de fond horizontalement et verticalement */
 }
 
-#buttonContainer button {
+#buttonContainer a {
   font-size: 20px; /* Taille de police plus grande */
   padding: 10px 20px; /* Padding plus important autour du texte */
+  margin: 0 10px; /* Ajout de marge entre les boutons */
+  text-decoration: none; /* Supprimer le soulignement par défaut des liens */
+  color: #ffffff; /* Couleur du texte */
+  background-color: #007bff; /* Couleur de fond des boutons */
+  border: none; /* Supprimer les bordures */
+  border-radius: 5px; /* Ajouter des coins arrondis */
 }
 
+#buttonContainer a:hover {
+  background-color: #0056b3; /* Couleur de fond des boutons au survol */
+}
 /* En-têtes */
 h1 {
   font-size: 3.2em;
@@ -237,6 +246,7 @@ h2 {
 .right-side {
   flex: 1;
   padding: 20px;
+  margin-bottom: 50px;
 }
 .button {
   display: block;
@@ -311,4 +321,52 @@ h2 {
   height: 30px;
   font-size: 18px;
   display: block;
+}
+
+.clientcontainer {
+  width: 90vw; /* Largeur égale à la largeur de l'écran */
+  height: auto; /* Hauteur ajustée automatiquement */
+  border: 1px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border: none; /* Supprime les bordures */
+}
+
+.button-pdf-img {
+  width: 150px; /* Largeur agrandie pour le bouton PDF/IMG */
+  border-radius: 0;
+}
+
+.button-green {
+  background-color: green;
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-icon {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
 }

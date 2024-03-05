@@ -23,10 +23,10 @@
         id="buttonContainer"
         class="d-flex justify-content-center align-items-center"
       >
-        <button type="button" class="btn btn-primary">Images</button>
-        <button type="button" class="btn btn-primary">Clients</button>
-        <button type="button" class="btn btn-primary">Agenda</button>
+        <a href="#images">Images</a>
+        <a href="#clients">Clients</a>
       </div>
+      <h2 id="images">Images</h2>
       <div class="imgcontainer">
         <div class="left-side">
           <img src="https://via.placeholder.com/150" alt="Placeholder" />
@@ -200,6 +200,28 @@
             </div>
           </div>
         </div>
+      </div>
+      <h2 id="clients">Clients</h2>
+      <div class="clientcontainer">
+        <button class="button button-pdf-img">PDF/IMG</button>
+        <input type="date" />
+        <input type="text" placeholder="Nom Prénom" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Type d'intervention" />
+        <div class="button button-gray button-icon"><span>&#9998;</span></div>
+        <div class="button button-green button-icon"><span>&#10003;</span></div>
+        <div class="button button-red button-icon"><span>&#10005;</span></div>
+      </div>
+
+      <div class="clientcontainer">
+        <button class="button button-pdf-img">PDF/IMG</button>
+        <input type="date" />
+        <input type="text" placeholder="Nom Prénom" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Type d'intervention" />
+        <div class="button button-gray button-icon"><span>&#9998;</span></div>
+        <div class="button button-green button-icon"><span>&#10003;</span></div>
+        <div class="button button-red button-icon"><span>&#10005;</span></div>
       </div>
     </main>
   </div>
