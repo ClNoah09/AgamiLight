@@ -1,6 +1,8 @@
 <template>
+  <!-- Template section -->
   <div class="d-flex flex-column h-100">
     <header>
+      <!-- Header section -->
       <!-- Fixed navbar -->
       <nav
         class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark"
@@ -8,7 +10,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Agami-Light</a>
-
+          <!-- Navbar content -->
           <div
             class="collapse navbar-collapse justify-content-end"
             id="navbarNav"
@@ -16,19 +18,28 @@
         </div>
       </nav>
     </header>
-
+    <!-- Main content section -->
     <!-- Begin page content -->
     <main class="flex-shrink-0 py-5 container-fluid">
+      <!-- Button Container -->
       <div
         id="buttonContainer"
         class="d-flex justify-content-center align-items-center"
       >
+        <!-- Buttons for navigation -->
+
         <a href="#images">Images</a>
         <a href="#clients">Clients</a>
       </div>
+      <!-- Images Section -->
+
       <h2 id="images">Images</h2>
       <div class="imgcontainer">
+        <!-- Container for left and right side images -->
+
         <div class="left-side">
+          <!-- Left side images -->
+
           <img src="https://via.placeholder.com/150" alt="Placeholder" />
           <button class="button">+</button>
           <h3>Insérez image</h3>
@@ -40,8 +51,12 @@
           <button class="approve-button">V</button>
         </div>
         <div class="right-side">
+          <!-- Right side images -->
+
           <h3>Résidentiel</h3>
           <div class="residentiel">
+            <!-- Residential images -->
+            <!-- Image containers with delete buttons -->
             <div class="image-container">
               <div class="image-wrapper">
                 <img
@@ -95,6 +110,8 @@
           </div>
           <h3>Industriel et Tertiaire</h3>
           <div class="industirel">
+            <!-- Industrial and Tertiary images -->
+            <!-- Image containers with delete buttons -->
             <div class="image-container">
               <div class="image-wrapper">
                 <img
@@ -148,6 +165,8 @@
           </div>
           <h3>Événementiel</h3>
           <div class="evenementiel">
+            <!-- Event images -->
+            <!-- Image containers with delete buttons -->
             <div class="image-container">
               <div class="image-wrapper">
                 <img
@@ -201,8 +220,14 @@
           </div>
         </div>
       </div>
+      <!-- Clients Section -->
+
       <h2 id="clients">Clients</h2>
+      <!-- Container for client forms -->
+
       <div class="clientcontainer">
+        <!-- Client form -->
+        <!-- Inputs and buttons for client details -->
         <button class="button button-pdf-img">PDF/IMG</button>
         <input type="date" />
         <input type="text" placeholder="Nom Prénom" />
@@ -214,6 +239,8 @@
       </div>
 
       <div class="clientcontainer">
+        <!-- Client form -->
+        <!-- Inputs and buttons for client details -->
         <button class="button button-pdf-img">PDF/IMG</button>
         <input type="date" />
         <input type="text" placeholder="Nom Prénom" />
