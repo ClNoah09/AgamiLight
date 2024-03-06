@@ -324,18 +324,20 @@ h2 {
 }
 
 .clientcontainer {
-  width: 90vw; /* Largeur égale à la largeur de l'écran */
-  height: auto; /* Hauteur ajustée automatiquement */
+  width: 90%; /* Utilisation de pourcentage pour l'adaptabilité */
+  max-width: 600px; /* Largeur maximale pour une meilleure lisibilité */
   border: 1px solid black;
   margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
   align-items: center;
   justify-content: space-between;
   padding: 10px;
 }
 
 .button {
-  width: 40px;
+  width: 10%; /* Utilisation de pourcentage pour l'adaptabilité */
+  max-width: 40px;
   height: 40px;
   background-color: gray;
   border-radius: 50%;
@@ -344,29 +346,29 @@ h2 {
   justify-content: center;
   color: white;
   cursor: pointer;
-  border: none; /* Supprime les bordures */
+  border: none;
 }
 
 .button-pdf-img {
-  width: 150px; /* Largeur agrandie pour le bouton PDF/IMG */
+  width: 30%; /* Utilisation de pourcentage pour l'adaptabilité */
+  max-width: 150px;
   border-radius: 0;
 }
 
-.button-green {
-  background-color: green;
-}
-
-.button-red {
-  background-color: red;
+.data-display {
+  width: 90%; /* Utilisation de pourcentage pour l'adaptabilité */
+  max-width: 400px; /* Largeur maximale pour une meilleure lisibilité */
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f9f9f9;
 }
 
 .button-icon {
-  margin-right: 10px;
-}
-
-input[type="text"],
-input[type="date"] {
-  width: 200px;
-  height: 30px;
   margin-right: 10px;
 }

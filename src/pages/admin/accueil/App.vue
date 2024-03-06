@@ -229,10 +229,10 @@
         <!-- Client form -->
         <!-- Inputs and buttons for client details -->
         <button class="button button-pdf-img">PDF/IMG</button>
-        <input type="date" />
-        <input type="text" placeholder="Nom Prénom" />
-        <input type="email" placeholder="Email" />
-        <input type="text" placeholder="Type d'intervention" />
+        <div class="data-display">JJ/MM/AAAA</div>
+        <div class="data-display">Nom Prénom</div>
+        <div class="data-display">Email</div>
+        <div class="data-display">Type d'intervention</div>
         <div class="button button-gray button-icon"><span>&#9998;</span></div>
         <div class="button button-green button-icon"><span>&#10003;</span></div>
         <div class="button button-red button-icon"><span>&#10005;</span></div>
@@ -242,10 +242,10 @@
         <!-- Client form -->
         <!-- Inputs and buttons for client details -->
         <button class="button button-pdf-img">PDF/IMG</button>
-        <input type="date" />
-        <input type="text" placeholder="Nom Prénom" />
-        <input type="email" placeholder="Email" />
-        <input type="text" placeholder="Type d'intervention" />
+        <div class="data-display">JJ/MM/AAAA</div>
+        <div class="data-display">Nom Prénom</div>
+        <div class="data-display">Email</div>
+        <div class="data-display">Type d'intervention</div>
         <div class="button button-gray button-icon"><span>&#9998;</span></div>
         <div class="button button-green button-icon"><span>&#10003;</span></div>
         <div class="button button-red button-icon"><span>&#10005;</span></div>
